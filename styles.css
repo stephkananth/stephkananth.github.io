@@ -1,0 +1,40 @@
+body {
+	background-color: #252526;
+	color: white;
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+}
+
+img {
+  object-fit: cover;
+  border-radius: 50%;
+  height: 350px;
+  width: 350px;
+  display: block;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+	padding: 0.25%;
+}
+
+a {
+	color: white;
+}
+
+div {
+	padding: 2.5%;
+}
+
+ion-icon {
+	padding: 1%;
+}
+
+ion-icon:hover,
+ion-icon:focus {
+    opacity: .7;
+    transition: all .2s ease-in-out; 
+    transform: scale(1.2);
+}
